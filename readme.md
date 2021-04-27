@@ -6,7 +6,7 @@
 * docker build -t luansantos/pfa-app .
 * docker build -t luansantos/pfa-nginx .
 
-### Run images
+### Run Containers
 * docker run --rm --name pfa-mysql --network=pfa-desafio luansantos/pfa-mysql
 * docker run --rm --name pfa-app --network=pfa-desafio luansantos/pfa-app
 * docker run --rm --name pfa-nginx -p 8080:80 --network=pfa-desafio luansantos/pfa-nginx
